@@ -13,7 +13,7 @@ function startTime() {
     if (hour > 08) {
         var greet ="GOOD MORNING!! WAKE UP !!";
     }
-    if(hour > 13 ){
+    if(hour >= 13 ){
         var greet ="GOOD AFTERNOON !! TAKE SOME SLEEP";
     }  if (hour >= 16 && hour < 20 ) {
         var greet ="GOOD EVENING !!";
