@@ -10,7 +10,7 @@ function startTime() {
     minute = checkTime(minute);
     second = checkTime(second);
     setTimeout(startTime, 1000);
-    if (hour < 08) {
+    if (hour > 08) {
         var greet ="GOOD MORNING!! WAKE UP !!";
     }
     if(hour > 13 ){
